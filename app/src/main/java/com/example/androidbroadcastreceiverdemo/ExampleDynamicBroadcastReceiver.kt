@@ -20,9 +20,11 @@ class ExampleDynamicBroadcastReceiver : BroadcastReceiver() {
         }
 
         if (intent.action == Intent.ACTION_AIRPLANE_MODE_CHANGED ) {
-            Toast.makeText(context, "Airplane mode change detected", Toast.LENGTH_SHORT)
-                .show()
-            return
+            Toast.makeText(
+                context,
+                "Airplane mode change detected by dynamic broadcast receiver",
+                Toast.LENGTH_SHORT
+            ).show()
         }
 
     }

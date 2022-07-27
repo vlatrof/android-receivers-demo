@@ -27,8 +27,7 @@
 
         <receiver
             android:name=".ExampleStaticBroadcastReceiver"
-            android:exported="true"
-            android:permission="TODO">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.AIRPLANE_MODE"/>
             </intent-filter>
