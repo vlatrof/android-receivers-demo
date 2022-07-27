@@ -13,7 +13,7 @@ class ExampleStaticBroadcastReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
 
         if (intent?.action == Intent.ACTION_AIRPLANE_MODE_CHANGED) {
-            //Toast.makeText(context, "Airplane mode changed", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(context, "Airplane mode change detected", Toast.LENGTH_SHORT).show()
         }
 
     }
